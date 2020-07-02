@@ -11,11 +11,11 @@ import java.util.LinkedList;
 public class Main {
     public static void main(String[] args) {
 
-        HashMap<String,Object> map = new HashMap<>();
-map.put("key1", "value");
-map.put("key2", "value");
-map.put("key3", "value");
-map.put("key4", "value");
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("key1", "value");
+        map.put("key2", "value");
+        map.put("key3", "value");
+        map.put("key4", "value");
 
         /*LinkedList list =
                 new LinkedList();
