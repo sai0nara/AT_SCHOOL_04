@@ -1,9 +1,10 @@
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 import somepackage.Other;
 import somepackage.Some;
 import somethinggreen.Contract;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 
@@ -35,5 +36,13 @@ map.put("key4", "value");
         Contract.staticMethod("");
 
         System.out.println(map);
+
+        Some some = new Some("secret");
+        some.soTellMeAboutInterfaces();
+        System.out.println(some.toString());
+        System.out.println(some.getДаТакТожеМожно());
+        System.out.println(Arrays.toString(some.getClass().getAnnotations()));
+        Contract.staticMethod("Some text");
+
     }
 }
