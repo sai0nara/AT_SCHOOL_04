@@ -10,6 +10,6 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME) //Даже в рантайме она еще будет
 @Target(ElementType.TYPE) //Можно метить классы
-public @interface AnnotationForExaple {
+public @interface AnnotationForExample {
     String description() default "Ваш класс официально аннотирован!";
 }
