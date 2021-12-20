@@ -1,7 +1,7 @@
 package somepackage;
 
 import somethingabstract.Abstract;
-import somethinggreen.AnnotationForExaple;
+import somethinggreen.Annotation;
 import somethinggreen.Contract;
 
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @since в последний момент.
  * @version крайняя
  */
-@AnnotationForExaple (description = "Сим я делаю этот класс более доступным для рефлексии")
+@Annotation(description = "Сим я делаю этот класс более доступным для рефлексии")
 public class Some extends Abstract implements Contract {
     /*Поля класса*/
     /**
