@@ -1,9 +1,5 @@
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import somepackage.Other;
-import somepackage.Some;
 import somethinggreen.Contract;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 
@@ -16,7 +12,7 @@ map.put("key2", "value");
 map.put("key3", "value");
 map.put("key4", "value");
 
-        /*LinkedList list =
+        LinkedList list =
                 new LinkedList();
         list.add("UIGIU");
         list.add(new Object());
@@ -28,7 +24,7 @@ map.put("key4", "value");
             }
         }
 
-        System.out.println(list.get(0));*/
+        System.out.println(list.get(0));
         for (String s : map.keySet()) {
             System.out.println(map.get(s));
         }
